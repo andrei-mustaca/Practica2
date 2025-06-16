@@ -124,9 +124,6 @@ namespace CS.Data.Migrations
 
                     b.HasKey("OrderId", "OrderDate");
 
-                    b.HasIndex("OrderId")
-                        .IsUnique();
-
                     b.ToTable("OrderHistories");
                 });
 
@@ -159,7 +156,7 @@ namespace CS.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<Guid>("ParentId")
+                    b.Property<Guid?>("ParentId")
                         .HasColumnType("uuid");
 
                     b.HasKey("Id");
@@ -218,8 +215,8 @@ namespace CS.Data.Migrations
             modelBuilder.Entity("CS.Data.Models.OrderHistory", b =>
                 {
                     b.HasOne("CS.Data.Models.Order", "Order")
-                        .WithOne("OrderHistory")
-                        .HasForeignKey("CS.Data.Models.OrderHistory", "OrderId")
+                        .WithMany("OrderHistories")
+                        .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -261,8 +258,7 @@ namespace CS.Data.Migrations
                     b.Navigation("OrderAcceptance")
                         .IsRequired();
 
-                    b.Navigation("OrderHistory")
-                        .IsRequired();
+                    b.Navigation("OrderHistories");
 
                     b.Navigation("Payment")
                         .IsRequired();

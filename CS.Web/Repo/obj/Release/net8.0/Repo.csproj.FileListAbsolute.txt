@@ -1,0 +1,16 @@
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\bin\Release\net8.0\Repo.deps.json
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\bin\Release\net8.0\Repo.dll
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\bin\Release\net8.0\Repo.pdb
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\bin\Release\net8.0\CS.Data.dll
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\bin\Release\net8.0\CS.Data.pdb
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\obj\Release\net8.0\Repo.csproj.AssemblyReference.cache
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\obj\Release\net8.0\Repo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\obj\Release\net8.0\Repo.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\obj\Release\net8.0\Repo.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\obj\Release\net8.0\Repo.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\obj\Release\net8.0\Repo.sourcelink.json
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\obj\Release\net8.0\Repo.csproj.Up2Date
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\obj\Release\net8.0\Repo.dll
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\obj\Release\net8.0\refint\Repo.dll
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\obj\Release\net8.0\Repo.pdb
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\Repo\obj\Release\net8.0\ref\Repo.dll

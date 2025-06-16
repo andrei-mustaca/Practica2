@@ -1,0 +1,16 @@
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\bin\Debug\net8.0\CS.RequestResponse.deps.json
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\bin\Debug\net8.0\CS.RequestResponse.dll
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\bin\Debug\net8.0\CS.RequestResponse.pdb
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\obj\Debug\net8.0\CS.RequestResponse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\obj\Debug\net8.0\CS.RequestResponse.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\obj\Debug\net8.0\CS.RequestResponse.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\obj\Debug\net8.0\CS.RequestResponse.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\obj\Debug\net8.0\CS.RequestResponse.sourcelink.json
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\obj\Debug\net8.0\CS.RequestResponse.dll
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\obj\Debug\net8.0\refint\CS.RequestResponse.dll
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\obj\Debug\net8.0\CS.RequestResponse.pdb
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\obj\Debug\net8.0\ref\CS.RequestResponse.dll
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\bin\Debug\net8.0\CS.Data.dll
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\bin\Debug\net8.0\CS.Data.pdb
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\obj\Debug\net8.0\CS.RequestResponse.csproj.AssemblyReference.cache
+C:\Users\andre\OneDrive\Рабочий стол\Учебная практика 2 семестр\Practica2\CS.Web\CS.RequestResponse\obj\Debug\net8.0\CS.Reque.0700708A.Up2Date

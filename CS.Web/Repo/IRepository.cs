@@ -1,13 +1,11 @@
 namespace Repo;
 
-public interface IRepository <TResponce,TRequest>
-    where TResponce: class
-    where TRequest: class
+public interface IRepository <TEntity> where TEntity:class
 {
-    Task<IEnumerable<TResponce>> GetAll();
-    Task<TResponce> Get(Guid id);
-    Task<BaseResponce> Create(TRequest item);
-    Task<BaseResponce> Update(TRequest item);
-    Task<BaseResponce> Delete(Guid id);
-    Task<BaseResponce> Save();
+    Task<IEnumerable<TEntity>> GetAllAsync();
+    Task<TEntity?> GetByKeysAsync(params object[] keys);
+    Task AddAsync(TEntity entity);
+    void Update(TEntity entity);
+    void Delete(TEntity entity);
+    Task SaveChangesAsync();
 }

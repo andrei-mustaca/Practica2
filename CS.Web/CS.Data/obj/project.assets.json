@@ -2304,11 +2304,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Рабочий стол\\Учебная практика 2 семестр\\CS.Web\\CS.Data\\CS.Data.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Рабочий стол\\Учебная практика 2 семестр\\Practica2\\CS.Web\\CS.Data\\CS.Data.csproj",
       "projectName": "CS.Data",
-      "projectPath": "C:\\Users\\andre\\OneDrive\\Рабочий стол\\Учебная практика 2 семестр\\CS.Web\\CS.Data\\CS.Data.csproj",
+      "projectPath": "C:\\Users\\andre\\OneDrive\\Рабочий стол\\Учебная практика 2 семестр\\Practica2\\CS.Web\\CS.Data\\CS.Data.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\OneDrive\\Рабочий стол\\Учебная практика 2 семестр\\CS.Web\\CS.Data\\obj\\",
+      "outputPath": "C:\\Users\\andre\\OneDrive\\Рабочий стол\\Учебная практика 2 семестр\\Practica2\\CS.Web\\CS.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

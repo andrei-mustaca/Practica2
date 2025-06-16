@@ -4,7 +4,7 @@ public class Route
 {
     public Guid Id { get; set; }
     public string Name { get; set; }
-    public Guid ParentId { get; set; }
+    public Guid? ParentId { get; set; }
     
     public List<Order> DepartureOrders { get; set; }
     public List<Order> DestinationOrders { get; set; }

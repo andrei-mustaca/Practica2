@@ -9,8 +9,8 @@ public class OrderHistoryConfiguration:IEntityTypeConfiguration<OrderHistory>
     public void Configure(EntityTypeBuilder<OrderHistory> builder)
     {
         builder.HasKey(h=>new {h.OrderId,h.OrderDate} );
-        builder.HasOne(h=>h.Order)
-            .WithOne(o=>o.OrderHistory)
-            .HasForeignKey<OrderHistory>(h=>h.OrderId);
+        builder.HasOne(h => h.Order)
+            .WithMany(o => o.OrderHistories)
+            .HasForeignKey(h => h.OrderId);
     }
 }
