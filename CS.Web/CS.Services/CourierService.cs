@@ -32,4 +32,15 @@ public class CourierService:ICourierService
         await _repository.SaveChangesAsync();
         return _mapper.MapToResponse(courier);
     }
+    
+    public async Task<CreateCourierResponse> UpdateName(UpdateNameCourier request)
+    {
+        var courier = await _repository.GetByKeysAsync(request.CourierId);
+        if (courier == null)
+            return new CreateCourierResponse(false,"Курьер не найден");
+        courier.Name = request.Name;
+        _repository.Update(courier);
+        await _repository.SaveChangesAsync();
+        return _mapper.MapToResponse(courier);
+    }
 }

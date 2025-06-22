@@ -24,4 +24,24 @@ public class ClientController : ControllerBase
             var response = await _clientService.Create(request);
             return Ok(response); 
         }
+        
+        [HttpPost("UpdateName")]
+        public async Task<ActionResult<CreateClientResponse>> UpdateName([FromBody] UpdateNameRequest request)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var response = await _clientService.UpdateName(request);
+            return Ok(response); 
+        }
+        
+        [HttpPost("UpdateEmail")]
+        public async Task<ActionResult<CreateClientResponse>> UpdateEmail([FromBody] UpdateEmailRequest request)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var response = await _clientService.UpdateEmail(request);
+            return Ok(response); 
+        }
 }

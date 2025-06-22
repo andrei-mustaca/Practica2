@@ -24,4 +24,14 @@ public class CourierController:ControllerBase
         var response =await _courierService.CreateCourier(request);
         return Ok(response);
     }
+    
+    [HttpPost("UpdateName")]
+    public async Task<ActionResult<CreateCourierResponse>> UpdateName([FromBody] UpdateNameCourier request)
+    {
+        if (!ModelState.IsValid)
+            return BadRequest(ModelState);
+
+        var response = await _courierService.UpdateName(request);
+        return Ok(response); 
+    }
 }

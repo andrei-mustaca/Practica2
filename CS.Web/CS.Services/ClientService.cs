@@ -35,4 +35,26 @@ public class ClientService:IClientService
         await _clientRepository.SaveChangesAsync();
         return _mapper.MapToResponse(client);
     }
+
+    public async Task<CreateClientResponse> UpdateName(UpdateNameRequest request)
+    {
+        var client = await _clientRepository.GetByKeysAsync(request.ClientId);
+        if (client == null)
+            return new CreateClientResponse(false,"Клиент не найден");
+        client.Name = request.Name;
+        _clientRepository.Update(client);
+        await _clientRepository.SaveChangesAsync();
+        return _mapper.MapToResponse(client);
+    }
+    
+    public async Task<CreateClientResponse> UpdateEmail(UpdateEmailRequest request)
+    {
+        var client = await _clientRepository.GetByKeysAsync(request.ClientId);
+        if (client == null)
+            return new CreateClientResponse(false,"Клиент не найден");
+        client.Email = request.Email;
+        _clientRepository.Update(client);
+        await _clientRepository.SaveChangesAsync();
+        return _mapper.MapToResponse(client);
+    }
 }
